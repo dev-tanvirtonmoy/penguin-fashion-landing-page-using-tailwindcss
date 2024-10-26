@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Penguin Fashion Landing page</title>
+
+    <!-- Tailwindcss cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font awesome -->
+    <script
+      src="https://kit.fontawesome.com/16daa4f40d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="bg-orange-50">
+      <!-- Navbar -->
+      <nav
+        class="max-w-screen-lg mx-auto px-4 flex items-center justify-between py-7 lg:py-10"
+      >
+        <!-- Logo -->
+        <div class="flex items-center gap-2 lg:gap-3">
+          <img src="./images/logo.svg" alt="" />
+          <div class="flex">
+            <span class="text-lime-500 font-bold text-base lg:text-2xl"
+              >Penguin
+            </span>
+            <span class="text-[#363958] font-bold text-base lg:text-2xl"
+              >Fashion</span
+            >
+          </div>
+        </div>
+        <!-- Nav Links -->
+        <ul class="hidden lg:flex gap-14">
+          <li class="capitalize text-base font-medium text-[#3C3C3C]">
+            <a href="#">home</a>
+          </li>
+          <li class="capitalize text-base font-medium text-[#3C3C3C]">
+            <a href="#">Product</a>
+          </li>
+          <li class="capitalize text-base font-medium text-[#3C3C3C]">
+            <a href="#">about us</a>
+          </li>
+          <li class="capitalize text-base font-medium text-[#3C3C3C]">
+            <a href="#">contact us</a>
+          </li>
+        </ul>
+        <!-- Hamburger icon -->
+        <button class="text-3xl lg:hidden">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </nav>
+      <!-- Banner -->
+      <section class="lg:flex max-w-screen-lg mx-auto px-4">
+        <div>
+          <h1 class="text-6xl lg:text-7xl">
+            <span class="text-[#FABE4C]">Be the Penguins</span><br />
+            <span class="text-[#363958]">of Winter</span>
+          </h1>
+          <p class="text-base text-[#3E3E3E] mb-6 lg:mb-2">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </p>
+          <button>
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span>buy now</span>
+          </button>
+        </div>
+        <div>
+          <img src="./images/model.png" alt="" />
+        </div>
+      </section>
+    </header>
+    <main></main>
+    <footer></footer>
+  </body>
+</html>
